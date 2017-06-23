@@ -10,6 +10,10 @@ out_str=""
 for c in input_str:
     if c.islower():
         c=219-ord(c)
-        out_str=out_str+c
+        out_str=out_str+chr(c)
     else:
         out_str=out_str+c
+print out_str
+
+#ord()で文字→ASCIIコード
+#chr()でASCIIコード→文字に変換
