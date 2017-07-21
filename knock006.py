@@ -1,5 +1,9 @@
 # coding:  UTF-8
 
+# "paraparaparadise"と"paragraph"に含まれる文字bi-gramの集合を，
+# それぞれ, XとYとして求め，XとYの和集合，積集合，差集合を求めよ．
+# さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．
+
 def makeBiGram(s,l=[]):
     print "##char bi-gram##"
     i=0
@@ -37,3 +41,5 @@ print "X: "
 print "se" in sets_x
 print "Y: "
 print "se" in sets_y
+
+# set()で集合(重複のない要素を持つリスト)を作ることができる
