@@ -22,4 +22,4 @@ for (line,i) in zip(str,range(0,int(args[1]))):
 
 
 
-#int()でstrをintに変換
+#reverse()で要素を逆順にする

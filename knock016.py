@@ -40,4 +40,11 @@ for (line,i) in zip(hi_list,range(1,len(hi_list))):
     f_split = codecs.open("split_temp"+str(file_num)+".txt","a","utf-8")
     f_split.write(line)
 
-#int()でstrをintに変換
+
+#"a"でファイル書き込みすると追記になってしまうので、何度も実行するとその度に追記されてしまう
+#0番目とhi_list番目のファイルの行数が一つ足りない
+#一旦リストに格納→一度に書き込み　を考えたが、Pythonのリストの仕様が分からず断念
+#再トライしたい
+
+
+#pythonのリスト使用について　参考　http://qiita.com/utgwkk/items/5ad2527f19150ae33322
